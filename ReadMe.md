@@ -4,7 +4,7 @@
 [Optional] [Set up a virtualenv and activate](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/) 
 
 ##### Get the code
-    git clone https://github.com/johnnycakes79/django-gentelella.git
+    git clone https://github.com/GiriB/django-gentelella.git
     cd django-gentelella
 
 ##### Install requirements 
@@ -16,3 +16,6 @@
     
 ##### Behold!
 Go to http://localhost:8000/
+
+###### Contributors 
+[@johnnycakes79](https://github.com/johnnycakes79)
