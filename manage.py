@@ -12,9 +12,13 @@ if __name__ == "__main__":
                 'NAME': ':memory:',
             }
         },
-        INSTALLED_APPS=['gentelella'],
+        INSTALLED_APPS=[
+            'django.contrib.staticfiles',
+            'gentelella'
+        ],
         ROOT_URLCONF='gentelella.urls',
         SECRET_KEY='SECRET',
+        STATIC_URL='/static/',
         TEMPLATES=[
             {
                 'BACKEND': 'django.template.backends.django.DjangoTemplates',
